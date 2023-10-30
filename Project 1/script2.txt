@@ -1,0 +1,161 @@
+Script started on 2023-09-26 15:03:34-06:00 [TERM="xterm-256color" TTY="/dev/pts/272" COLUMNS="136" LINES="15"]
+
+Disk quotas for user mokutimabasi.thompso (uid 34450105): 
+     Filesystem   space   quota   limit   grace   files   quota   limit   grace
+10.44.68.26:/CS    503M  10240M  10240M            9518    100k    100k        
+
+]0;mokutimabasi.thompso@csa1:~[?2004h[UC mokutimabasi.thompso@csa1 ~] m4 assign)[K_1b.asm > assign_1b.s
+[?2004l]0;mokutimabasi.thompso@csa1:~[?2004h[UC mokutimabasi.thompso@csa1 ~] gcc assign_1b.s -o assign_1b
+[?2004l]0;mokutimabasi.thompso@csa1:~[?2004h[UC mokutimabasi.thompso@csa1 ~] gbd[K[Kdb assign_1b
+[?2004l[35;1mGNU gdb (GDB) Fedora Linux 13.2-2.fc38[m
+Copyright (C) 2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <[32mhttp://gnu.org/licenses/gpl.html[m>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+[32m<https://www.gnu.org/software/gdb/bugs/>[m.
+Find the GDB manual and other documentation resources online at:
+    <[32mhttp://www.gnu.org/software/gdb/documentation/[m>.
+
+For help, type "help".
+[?2004h--Type <RET> for more, q to quit, c to continue without paging--c
+[?2004lType "apropos word" to search for commands related to "word"...
+Reading symbols from [32massign_1b[m...
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <[32mhttps://debuginfod.fedoraproject.org/[m>
+[?2004hEnable debuginfod for this session? (y or [n]) y
+[?2004lDebuginfod has been enabled.
+To make this setting permanent, add 'set debuginfod enabled on' to .gdbinit.
+                                                                                                                                        (No debugging symbols found in [32massign_1b[m)
+[?2004h(gdb) b *main
+[?2004lBreakpoint 1 at [34m0x4101d4[m
+[?2004h(gdb) b *top
+[?2004lBreakpoint 2 at [34m0x4101fc[m
+[?2004h(gdb) r
+[?2004lStarting program: [32m/home/csusers/mokutimabasi.thompso/assign_1b[m 
+                                                                                                                                                                                                                                                                                [Thread debugging using libthread_db enabled]
+Using host libthread_db library "[32m/lib64/libthread_db.so.1[m".
+
+Breakpoint 1, [34m0x00000000004101d4[m in [33mmain[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = -10, y value = 5840, y minimum = 5840
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = -9, y value = -2906, y minimum = -2906
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = -8, y value = -7678, y minimum = -7678
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = -7, y value = -9496, y minimum = -9496
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = -6, y value = -9260, y minimum = -9496
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = -5, y value = -7750, y minimum = -9496
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = -4, y value = -5626, y minimum = -9496
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = -3, y value = -3428, y minimum = -9496
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) v[Kc
+[?2004lContinuing.
+x value = -2, y value = -1576, y minimum = -9496
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = -1, y value = -370, y minimum = -9496
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = 0, y value = 10, y minimum = -9496
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = 1, y value = -496, y minimum = -9496
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = 2, y value = -1828, y minimum = -9496
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = 3, y value = -3806, y minimum = -9496
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = 4, y value = -6130, y minimum = -9496
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = 5, y value = -8380, y minimum = -9496
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = 6, y value = -10016, y minimum = -10016
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = 7, y value = -10378, y minimum = -10378
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = 8, y value = -8686, y minimum = -10378
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = 9, y value = -4040, y minimum = -10378
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = 10, y value = 4580, y minimum = -10378
+
+Breakpoint 2, [34m0x00000000004101fc[m in [33mtop[m ()
+[?2004h[?2004l[?2004h(gdb) c
+[?2004lContinuing.
+x value = 11, y value = 18314, y minimum = -10378
+[Inferior 1 (process 3394125) exited normally]
+[?2004h[?2004l[?2004h(gdb) q
+[?2004l]0;mokutimabasi.thompso@csa1:~[?2004h[UC mokutimabasi.thompso@csa1 ~] exit 
+[?2004lexit
+
+Script done on 2023-09-26 15:06:42-06:00 [COMMAND_EXIT_CODE="0"]
